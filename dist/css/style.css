@@ -443,3 +443,46 @@ body {
   padding: 9px 15px 8px;
   text-transform: uppercase;
 }
+
+/*2-nd part was*/
+
+.slider {
+  color: #333;
+  padding: 0 0 30px;
+}
+
+.slide {
+  font-size: 90px;
+  width: 150px;
+  padding: 10px 0;
+  margin: 20px 15px;
+  text-align: center;
+  border: 1px solid #999;
+}
+
+.slide.locked {
+  background: rgba(255, 255, 0, 0.5);
+}
+
+.slick-prev,
+.slick-next {
+  position: absolute;
+  bottom: 0;
+}
+
+.slick-next {
+  left: 80px;
+}
+
+/*2-nd part new*/
+
+.slide.locked {
+  position: fixed;
+  -webkit-transition: left 0.3s;
+  -o-transition: left 0.3s;
+  transition: left 0.3s;
+}
+
+.next {
+  margin-left: 236px;
+}
